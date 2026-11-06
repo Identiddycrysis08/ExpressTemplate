@@ -38,7 +38,7 @@ router.get('/', async (req, res) => {
           name: 'idk',
           description,
           url: siteOrigin,
-          image: new URL('/images/IMG_4557.webp', siteOrigin).href
+          image: new URL('/images/placeholder', siteOrigin).href
         }
       ]
     }).replace(/</g, '\\u003c')
