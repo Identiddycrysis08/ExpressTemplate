@@ -37,6 +37,6 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            ghcr.io/identiddycrysis08/ExpressTemplate/expresstemplate:latest
+            ghcr.io/identiddycrysis08/expresstemplate/expresstemplate:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
