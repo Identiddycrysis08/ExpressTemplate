@@ -1,0 +1,12 @@
+
+mixin aboutCard(label, title, image, imageAlt)
+  article.card
+    .card-inner
+      if image
+        +imgTmp(image, imageAlt)
+      .card-content
+        h3= title
+        p.card-label= label
+        if block
+          block
+

@@ -1,0 +1,32 @@
+
+:root {
+  --color-page-bg: #38577d;
+  --color-surface: #2f4968;
+  --color-surface-raised: #25425f;
+  --color-surface-border: #567ca0;
+
+  --color-text-primary: #f6f9ff;
+  --color-text-secondary: #d3e3f5;
+  --color-text-muted: #c1d2e5;
+  --color-text-on-accent: #ffffff;
+
+  --color-accent: #3d9bff;
+  --color-accent-strong: #1558a0;
+  --color-accent-hover: #a3d5ff;
+  --color-accent-hover-strong: #10477f;
+  --color-focus-ring: #a3d5ff;
+  --color-focus-ring-card: #1558a0;
+  --color-success: #b7f0c8;
+  --color-selection-text: #ffffff;
+
+  --color-card-bg: #e8eef5;
+  --color-card-surface: #dbe6f2;
+  --color-card-text: #10243a;
+  --color-card-h3: #10243a;
+  --color-card-muted: #3d5874;
+
+  --color-overlay: rgba(0, 8, 20, 0.52);
+  --color-text-overlay: #ffffff;
+  --color-decoration-overlay: rgba(100, 175, 255, 0.75);
+}
+

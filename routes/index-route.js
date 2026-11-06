@@ -43,7 +43,7 @@ router.get('/', async (req, res) => {
       ]
     }).replace(/</g, '\\u003c')
     : null;
-  res.render('index', { canonicalUrl, ogmetaData});
+  res.render('content/index', { canonicalUrl, ogmetaData});
   console.log(`Rendered Index Successfully to Client ${req.headers['cf-connecting-ip']}📄✅`);
 });
 

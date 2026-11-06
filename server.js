@@ -129,7 +129,7 @@ app.use(seoRouter);
 
 
 app.use((req, res) => {
-  res.status(404).render('404');
+  res.status(404).render('status/404');
 });
 
 app.listen(port, '0.0.0.0', () => {
