@@ -1,0 +1,9 @@
+mixin openGraph(title, description)
+  meta(property="og:type", content="website")
+  meta(property="og:site_name", content="French Farmhouse Retreat")
+  meta(property="og:title", content=title)
+  meta(property="og:description", content=description)
+  if ogUrl
+    meta(property="og:url", content=ogUrl)
+  if ogImage
+    meta(property="og:image", content=ogImage)
